@@ -1,0 +1,14 @@
+{
+  "name": "framework-mvc",
+  "autoScan": [
+    "config/**/*.js",
+    "module/**/*.js",
+    "aspect/**/*.js",
+    "service/**/*.js",
+    "middleware/**/*.js",
+    "controller/**/*.js",
+    "app.js"
+  ],
+  "ignore": [
+  ]
+}

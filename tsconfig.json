@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "outDir": ".",
+    "rootDir": "lib",
+    "types": [
+      "node", "reflect-metadata"
+    ],
+    "watch": false,
+    "declaration": true,
+    "moduleResolution": "node",
+    "sourceMap": false
+  },
+  "include": [
+    "lib/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

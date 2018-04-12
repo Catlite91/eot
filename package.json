@@ -1,0 +1,45 @@
+{
+  "name": "@dwd/framework",
+  "version": "0.0.5",
+  "description": "ioc framework",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "build": "tsc || echo 'build done'",
+    "watch": "tsc -w",
+    "lint": "tslint './lib/**/*.ts'",
+    "format": "tslint ./**/*.ts -e dist/**/*.ts --fix",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "precommit": "npm run lint"
+  },
+  "keywords": [
+    "ioc",
+    "framework"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-cluster-client": "^1.0.0",
+    "eot-core": "^0.0.1",
+    "async-busboy": "^0.6.2",
+    "bluebird": "^3.5.1",
+    "inversify": "^4.5.1",
+    "joi": "^13.0.1",
+    "koa": "^2.3.0",
+    "koa-bodyparser": "^4.2.0",
+    "koa-router": "^7.2.1",
+    "lodash": "^4.17.4",
+    "moment": "^2.19.1",
+    "sendmessage": "^1.1.0",
+    "winston": "^2.4.0"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.0.39",
+    "@types/node": "^8.0.29",
+    "@types/reflect-metadata": "0.0.5",
+    "debug": "^3.1.0",
+    "husky": "^0.14.3",
+    "tslint": "^5.8.0",
+    "typescript": "^2.5.3"
+  }
+}
