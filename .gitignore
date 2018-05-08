@@ -10,5 +10,6 @@ yarn-*.log
 .javadoc
 ~
 .history
+interface/
 *.js
 *.d.ts
